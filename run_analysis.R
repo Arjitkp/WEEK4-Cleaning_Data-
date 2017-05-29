@@ -74,5 +74,7 @@ processed_data<-rbind(final_test,final_train)
 Final_group<-group_by(processed_data,Subject_id,Activity)
 Tidy_data<-summarise_each(Final_group,funs(mean))
 
-write.table(Tidy_data,"Tidy_data.txt")
+Tidy_data<-arrange(Tidy_data,Subject_id,Activity_id)
+
+write.table(Tidy_data,"Tidy_data.txt",row.names = FALSE)
 
