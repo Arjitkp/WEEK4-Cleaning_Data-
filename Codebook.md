@@ -1,4 +1,4 @@
-#CodeBook
+# CodeBook
 - There is a total of 68 columns in this data set. Each row contains data related to 1 activity for a certain person.
 
 - There are data for 30 persons, each one was tracked for 6 activities, so there are a total of 180 rows of data.
