@@ -3,7 +3,7 @@ This repo is a part of assigmnet presented in Week 4 of Cleaning Data module. Fo
 
   - Run_analysis script
   - Codebook
-  - Read
+  - Readme
 
 
 ### Script
